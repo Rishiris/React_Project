@@ -7,7 +7,7 @@ export default function Navbar(props) {
     <>
       <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/textutils">
+          <Link className="navbar-brand" to="/">
             {props.title}
           </Link>
           <button
@@ -24,7 +24,7 @@ export default function Navbar(props) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/textutils">
+                <Link className="nav-link active" aria-current="page" to="/">
                 {props.home}
                 </Link>
               </li>

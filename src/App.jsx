@@ -39,7 +39,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
           {/* <Route path="/about"> */}
             {/* <About /> */}
-          <Route path="/textutils" element={<TextForm heading="Enter the text to analyze below" mode={mode} />} />
+          <Route path="/" element={<TextForm heading="Enter the text to analyze below" mode={mode} />} />
         </Routes>
       </div>
       </Router>
